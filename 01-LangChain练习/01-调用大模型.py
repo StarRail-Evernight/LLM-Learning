@@ -21,7 +21,7 @@ qwen = ChatOllama(
 # print(result.content)
 
 
-# ================ 流式输出 ================
+# ================ 流式输出 (带chunk的均与流式输出有关) ================
 # result = zhipu.stream("你好")
 # for chunk in result:
 #     print(chunk.content, end="")

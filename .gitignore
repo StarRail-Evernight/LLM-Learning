@@ -1,0 +1,22 @@
+# 缓存*.pyc
+**/__pycache__/
+__pycache__/
+*/__pycache__/
+/__pycache__/
+# 权重文件
+/weights/
+*/weights/
+**/weights/
+# 数据集文件
+/data/
+*/data/
+**/data/
+# 测试集文件
+/test/
+*/test/
+**/test/
+.ipynb_checkpoints/
+/.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.idea/

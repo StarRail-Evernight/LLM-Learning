@@ -18,7 +18,7 @@ def get_weather(location: str, days: int) -> str:
             url=f"https://api.seniverse.com/v3/weather/daily.json?"
                 f"key={os.getenv('XIN_ZHI_API_KEY')}&location={location}&language=zh-Hans&unit=c&start=0&days={days}"
         )
-    except:
+    except requests.RequestException:
         return "获取天气信息失败"
 
     results = ""

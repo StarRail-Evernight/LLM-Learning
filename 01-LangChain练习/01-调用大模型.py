@@ -10,7 +10,7 @@ zhipu = ChatZhipuAI(
 qwen = ChatOllama(
     model="qwen3:4b_q4_k_m",  # 这里的模型需要在ollama中提前pull下来，也可以量化之后使用
     temperature=0.5,
-    base_url="http://localhost:10086"  # 填写Ollama的地址，默认是http://localhost:11434
+    base_url="http://localhost:11434"  # 填写Ollama的地址，默认是http://localhost:11434
 )
 
 # ================ 简单调用 ================

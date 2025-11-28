@@ -1,4 +1,4 @@
-from langchain_core.messages import HumanMessage, AIMessage, SystemMessage  # 消息类型
+from langchain.messages import HumanMessage, AIMessage, SystemMessage  # 消息类型
 from langchain_core.prompts import PromptTemplate, ChatPromptTemplate  # 提示词模板
 
 # 消息类型,这里只是简单的展示一下消息的类型

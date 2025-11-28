@@ -1,17 +1,17 @@
 import streamlit as st
 from langchain_ollama import ChatOllama
-from langchain_core.messages import HumanMessage, AIMessage
+from langchain.messages import HumanMessage, AIMessage
 
 # 设置页面配置
 st.set_page_config(
-    page_title="Qwen3 本地聊天助手",
+    page_title="Ollama 本地聊天助手",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # 页面标题
-st.title("🤖 Qwen3 本地聊天助手")
+st.title("🤖 Ollama 本地聊天助手")
 st.markdown("---")
 
 # 侧边栏配置

@@ -1,5 +1,5 @@
 from langchain_community.chat_models import ChatZhipuAI
-from langchain_core.messages import SystemMessage, HumanMessage
+from langchain.messages import SystemMessage, HumanMessage
 
 llm = ChatZhipuAI(
     model="glm-4.6",

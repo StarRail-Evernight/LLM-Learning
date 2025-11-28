@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @time  : 2025/11/14 21:26
-# @author: 'March 7th'
-# @gitee : 'https://gitee.com/StarRail-Evernight'
-
 from langchain_community.chat_models import ChatZhipuAI
 from langchain_ollama import ChatOllama
 
